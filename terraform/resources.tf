@@ -4,6 +4,7 @@ resource "azuread_application" "example" {
   display_name               = var.application_name
   available_to_other_tenants = false
   oauth2_allow_implicit_flow = true
+  reply_urls                 = [""] # Ajout de l'URL de redirection avec une valeur vide
 }
 
 # Création du Service Principal à partir de l'application Azure AD
