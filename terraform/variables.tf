@@ -1,6 +1,6 @@
 variable "application_name" {
   description = "Nom de l'application Azure AD."
-  default     = "myServicePrincipal"
+  default     = "GitHub-IAC" # Mettez à jour le nom par défaut ici
 }
 
 variable "secret_description" {
