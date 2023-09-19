@@ -1,4 +1,3 @@
-# locals.tf
 locals {
   app_details = {
     display_name = "GitHub-IAC"
