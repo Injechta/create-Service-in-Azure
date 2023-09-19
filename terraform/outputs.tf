@@ -1,4 +1,3 @@
-# outputs.tf
 output "client_id" {
   value = azuread_service_principal.example.application_id
 }
