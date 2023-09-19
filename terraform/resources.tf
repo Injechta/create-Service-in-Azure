@@ -1,7 +1,7 @@
 # resources.tf
 # Création d'une application Azure AD pour le Service Principal
 resource "azuread_application" "example" {
-  display_name               = var.application_name
+  display_name               = "GitHub-IAC" # Mettez à jour le nom de l'application ici
   available_to_other_tenants = false
   oauth2_allow_implicit_flow = true
   reply_urls                 = [""] # Ajout de l'URL de redirection avec une valeur vide
