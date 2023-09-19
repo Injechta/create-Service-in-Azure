@@ -66,10 +66,8 @@ terraform destroy
 `client-secret` : Le secret associé au service principal
 
 `client-id` : L'ID du tenant dans lequel les ressources ont été créées
-
-
-
-
+               
+  
 
 
 
