@@ -61,7 +61,7 @@ terraform destroy
 
 ## Ouputs
 
-`client-id` : L'ID cleint de l'application/service principal créé
+`client-id` : L'ID client de l'application/service principal créé
 
 `client-secret` : Le secret associé au service principal
 
